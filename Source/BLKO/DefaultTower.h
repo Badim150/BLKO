@@ -27,7 +27,7 @@ public:
 	//The multiplier on which the tower's values are increased on upgrade
 	//The base value is 150%
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
-		float UpgradeValue = 1.5;
+		float UpgradeValue = 1.1;
 
 	//Damage property
 	//The ammount of damage one tower shot does
@@ -45,7 +45,7 @@ public:
 	//How far can the tower target and shoot and enemy
 	//This value is increased on Tower Upgrade
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
-		float Range = 5;
+		float Range = 400;
 
 	//FireCooldown property
 	//How long until the tower can fire again after shooting
@@ -53,6 +53,17 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
 		float FireCooldown = 1;
 
+	//TargetEnemy property
+	//The tower's target actor
+	//When a new enemy enters the tower's range a reference to it is stored here
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
+		AActor* TargetEnemy;
+
+	//SphereCollision property
+	//The tower's HitBox
+	//This sphere collision is effectively the Tower's attack range
+	//UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
+	//	UDrawSphereComponent::USphereComponent*  SphereCollision;
 
 	//Sell function
 	//Function that calculates the tower's refund cost and destroys it
@@ -66,15 +77,32 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
 		virtual void UpgradeTower();
 
+	//UpdateTowerRange function
+	//Function that updates the tower's SphereCollision Radius based on the tower's range
+
+	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
+		void UpdateTowerRange(AActor* c);
+
 	//UpdateCooldown function
 	//Fuction that calculates when the tower can shoot again based on the tower's attackSpeed value.
 	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
 		void UpdateCooldown();
 
+	//LockOn function
+	//Fuction that stores the tower's new target enemy, unless it already is targeting an enemy
+	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
+		void LockOn(AActor* Target);
+
+	//LockOff function
+	//Fuction called when the target enemy is no longer in range or is dead
+	//Clears TargetEnemy
+	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
+		void LockOff(AActor* Target);
+
 	//DealDamage function
 	//Receives a target and applies Damage to it
 	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
-		void DealDamage(AActor *target);
+		void DealDamage();
 
 	//Editor code to make updating values in the editor cleaner
 #if WITH_EDITOR

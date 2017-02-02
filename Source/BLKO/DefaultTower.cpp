@@ -23,7 +23,6 @@ void ADefaultTower::BeginPlay()
 void ADefaultTower::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
-
 }
 
 
@@ -46,10 +45,18 @@ void ADefaultTower::UpgradeTower()
 	Damage *= UpgradeValue;
 	AttackSpeed *= UpgradeValue;
 	Range *= UpgradeValue;
+	UpdateTowerRange(this);
 }
 
+//Implement UpdateTowerRange Function
+//This calls the Custom Event in the Blueprint that resizes the Range of the HitBox
+void ADefaultTower::UpdateTowerRange(AActor* c)
+{	
+	FOutputDeviceNull ar;
+	c->CallFunctionByNameWithArguments(TEXT("SetTowerRange"), ar, NULL, true);
+}
 
-//Impelment UpdateCooldown Function
+//Implement UpdateCooldown Function
 void ADefaultTower::UpdateCooldown()
 {
 	//AtackSpeed 1 == 1 Shot per second
@@ -57,11 +64,25 @@ void ADefaultTower::UpdateCooldown()
 	FireCooldown = UGameplayStatics::GetRealTimeSeconds(GetWorld()) + (1 / AttackSpeed);
 }
 
+//Implement LockOn Function
+void ADefaultTower::LockOn(AActor* Target)
+{
+	if (TargetEnemy == NULL)
+		TargetEnemy = Target;
+}
+
+//Implement LockOff Function
+void ADefaultTower::LockOff(AActor* Target)
+{
+	if(Target == TargetEnemy)
+		TargetEnemy = NULL;
+}
+
 
 //Implement DealDamage Function
-void ADefaultTower::DealDamage(AActor *target)
+void ADefaultTower::DealDamage()
 {
-	UGameplayStatics::ApplyDamage(target, Damage, NULL,NULL,NULL);
+	UGameplayStatics::ApplyDamage(TargetEnemy, Damage, NULL,NULL,NULL);
 	UpdateCooldown();
 }
 
@@ -74,8 +95,8 @@ void ADefaultTower::PostEditChangeProperty(FPropertyChangedEvent& PropertyChange
 	UpgradeCost = 15;
 	UpgradeValue = 1.5;
 	Damage = 10;
-	AttackSpeed = 10;
-	Range = 5;
+	AttackSpeed = 1;
+	Range = 400;
 	FireCooldown = 1;
 
 	Super::PostEditChangeProperty(PropertyChangedEvent);
