@@ -2,6 +2,7 @@
 
 #include "BLKO.h"
 #include "DefaultTower.h"
+#include "DefaultEnemy.h"
 
 
 // Sets default values
@@ -65,14 +66,14 @@ void ADefaultTower::UpdateCooldown()
 }
 
 //Implement LockOn Function
-void ADefaultTower::LockOn(AActor* Target)
+void ADefaultTower::LockOn(ADefaultEnemy* Target)
 {
 	if (TargetEnemy == NULL)
 		TargetEnemy = Target;
 }
 
 //Implement LockOff Function
-void ADefaultTower::LockOff(AActor* Target)
+void ADefaultTower::LockOff(ADefaultEnemy* Target)
 {
 	if(Target == TargetEnemy)
 		TargetEnemy = NULL;
@@ -82,7 +83,7 @@ void ADefaultTower::LockOff(AActor* Target)
 //Implement DealDamage Function
 void ADefaultTower::DealDamage()
 {
-	UGameplayStatics::ApplyDamage(TargetEnemy, Damage, NULL,NULL,NULL);
+	TargetEnemy->DealDamage(Damage);
 	UpdateCooldown();
 }
 

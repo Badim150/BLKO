@@ -17,7 +17,7 @@
 
 		//Health property
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
-			float Health = 100;
+			float Health = 20;
 
 		//Damage property
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
@@ -39,12 +39,12 @@
 	
 		//Calculate Dead function
 		//Checks if the chartacter is dead
-		virtual void CalculateDead();
+		virtual void CalculateDead(AActor* c);
 
-		//Calculate Health function
+		//DealDamage function
 		//Updates Health when damage is taken (or healing..)
 		UFUNCTION(BlueprintCallable, Category = "DefaultEnemy")
-			virtual void CalculateHealth(float delta);
+			virtual void DealDamage(float delta);
 
 		//Upgrade Enemy function
 		//Makes enemies stronger with each round

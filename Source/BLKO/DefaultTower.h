@@ -2,8 +2,10 @@
 
 #pragma once
 
+#include "DefaultEnemy.h"
 #include "GameFramework/Actor.h"
 #include "DefaultTower.generated.h"
+
 
 UCLASS(Blueprintable)
 class BLKO_API ADefaultTower : public AActor
@@ -57,7 +59,7 @@ public:
 	//The tower's target actor
 	//When a new enemy enters the tower's range a reference to it is stored here
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
-		AActor* TargetEnemy;
+		ADefaultEnemy* TargetEnemy;
 
 	//SphereCollision property
 	//The tower's HitBox
@@ -91,13 +93,13 @@ public:
 	//LockOn function
 	//Fuction that stores the tower's new target enemy, unless it already is targeting an enemy
 	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
-		void LockOn(AActor* Target);
+		void LockOn(ADefaultEnemy* Target);
 
 	//LockOff function
 	//Fuction called when the target enemy is no longer in range or is dead
 	//Clears TargetEnemy
 	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
-		void LockOff(AActor* Target);
+		void LockOff(ADefaultEnemy* Target);
 
 	//DealDamage function
 	//Receives a target and applies Damage to it

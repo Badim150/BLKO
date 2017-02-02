@@ -36,20 +36,26 @@ void ADefaultEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 
 //Implement CalculateHealth
-void ADefaultEnemy::CalculateHealth(float Delta)
+void ADefaultEnemy::DealDamage(float Delta)
 {
-	Health += Delta;
-	CalculateDead();
+	Health -= Delta;
+
+
+	CalculateDead(this);
 }
 
 
 //Implement CalculateDead
-void ADefaultEnemy::CalculateDead()
+void ADefaultEnemy::CalculateDead(AActor* c)
 {
+	FOutputDeviceNull ar;
+	
 	if (Health <= 0)
+	{
 		isDead = true;
-	else
-		isDead = false;
+		c->CallFunctionByNameWithArguments(TEXT("DeathState"), ar, NULL, true);
+	}
+	
 }
 
 //Implement UpgradeEnemy
@@ -63,16 +69,17 @@ void ADefaultEnemy::UpgradeEnemy(float RoundNumber)
 	}
 }
 
+
+
 //Implement PostEdit
 #if WITH_EDITOR
 void ADefaultEnemy::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
 {
 	isDead = false;
-	Health = 100;
+	Health = 20;
 
 	Super::PostEditChangeProperty(PropertyChangedEvent);
 
-	CalculateDead();
 }
 
 
