@@ -55,6 +55,12 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
 		float FireCooldown = 1;
 
+	//TowerLevel property
+	//The tower's level
+	//Only for display
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
+		int TowerLevel = 1;
+
 	//TargetEnemy property
 	//The tower's target actor
 	//When a new enemy enters the tower's range a reference to it is stored here

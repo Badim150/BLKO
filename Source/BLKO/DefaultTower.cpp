@@ -47,6 +47,7 @@ void ADefaultTower::UpgradeTower()
 	AttackSpeed *= UpgradeValue;
 	Range *= UpgradeValue;
 	UpdateTowerRange(this);
+	TowerLevel += 1;
 }
 
 //Implement UpdateTowerRange Function
@@ -100,6 +101,7 @@ void ADefaultTower::PostEditChangeProperty(FPropertyChangedEvent& PropertyChange
 	AttackSpeed = 1;
 	Range = 400;
 	FireCooldown = 1;
+	TowerLevel = 1;
 
 	Super::PostEditChangeProperty(PropertyChangedEvent);
 
