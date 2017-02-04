@@ -30,28 +30,22 @@ void ASpawner::Tick( float DeltaTime )
 
 	float _gameTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
 	
-	if (NextWave.length() <= 0) {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "gonna plan msg");
-		PlanWave();
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "gona wave msg");
+	if (NextWave.length() <= 0) {		
+		PlanWave();		
 		UpdateSpawnTime(2);// HERE
 		
 	}else if (_gameTime >= TimeToSpawn) {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "gonna spawn msg");
 		SpawnEnemy(this);
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "I spawned msg");
 		UpdateSpawnTime(1);
 	}
-
-	
+		
 }
 
 
 //Implement the PlanWave function.
 void ASpawner::PlanWave()
 {
-	NextWave = WaveString[WaveNumber];
-	
+	NextWave = WaveString[WaveNumber];	
 	WaveNumber += 1;
 
 }
@@ -65,7 +59,6 @@ void ASpawner::SpawnEnemy(AActor* c)
 	std::string nextEnemy(1, NextWave.c_str()[0]);
 	FString temp(nextEnemy.c_str());
 	EnemyToSpawn = temp;
-
 	//	NextWave.erase(0);
 	c->CallFunctionByNameWithArguments(TEXT("BPSpawnEnemy"), ar, NULL, true);
 	
