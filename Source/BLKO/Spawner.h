@@ -40,10 +40,21 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
 		FString EnemyToSpawn;
 
+	//TimeWave
+	//Float with the seconds between waves
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
+		float TimeWave = 8;
+
+	//TimeMob
+	//Float with the seconds between waves
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
+		float TimeMob = 0.2;
+
+
 	//PlanWave function
 	//Function that will plan the next wave and store it
 	UFUNCTION(BlueprintCallable, Category = "Spawner")
-		void PlanWave();
+		void PlanWave(AActor* c, float t);
 
 	//CreateWave function
 	//Auxiliary function for the PlanWave function that receives all parameters and returns a wave string
@@ -67,7 +78,7 @@ public:
 
 	//Wave Strings
 	//Non-random strings to use on the first waves
-	std::string WaveString[10] = { 
+	std::string WaveString[11] = { 
 		"111111111",			//wave 1 - 5  easy enemies
 		"1111111111",			//wave 2 - 10 easy enemies
 		"111111111111111",		//wave 3 - 15 easy enemies
@@ -77,7 +88,8 @@ public:
 		"3231323132",			//wave 7 - 5  flying enemies
 		"12121212121212121212", //wave 8 - 10 easy enemies
 		"3333333333",			//wave 9 - 10 flying enemies
-		"4"						//wave 10 - boss 
+		"4",					//wave 10 - boss
+		"2222222222222222222222222222222222222222222"
 	};
 
 #if WITH_EDITOR

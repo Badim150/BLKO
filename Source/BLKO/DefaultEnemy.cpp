@@ -59,7 +59,7 @@ void ADefaultEnemy::CalculateDead(AActor* c)
 }
 
 //Implement UpgradeEnemy
-void ADefaultEnemy::UpgradeEnemy(float RoundNumber)
+void ADefaultEnemy::UpgradeEnemy(int RoundNumber)
 {	
 		//An enemy is upgraded according to the current Wave
 		//Wave 1 = 100%

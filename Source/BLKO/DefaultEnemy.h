@@ -54,7 +54,7 @@
 		//Upgrade Enemy function
 		//Makes enemies stronger with each round
 		UFUNCTION(BlueprintCallable, Category = "DefaultEnemy")
-			virtual void UpgradeEnemy(float roundNumber);
+			virtual void UpgradeEnemy(int roundNumber);
 
 
 		//Editor code to make updating values in the editor cleaner

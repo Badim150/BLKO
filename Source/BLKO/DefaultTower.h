@@ -28,7 +28,7 @@ public:
 	//UpgradeValue property
 	//The multiplier on which the tower's values are increased on upgrade
 	//The base value is 150%
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
+	
 		float UpgradeValue = 1.1;
 
 	//Damage property

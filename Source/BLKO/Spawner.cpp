@@ -31,22 +31,22 @@ void ASpawner::Tick( float DeltaTime )
 	float _gameTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
 	
 	if (NextWave.length() <= 0) {		
-		PlanWave();		
-		UpdateSpawnTime(2);// HERE
-		
+		PlanWave(this, TimeWave);
 	}else if (_gameTime >= TimeToSpawn) {
 		SpawnEnemy(this);
-		UpdateSpawnTime(1);
 	}
 		
 }
 
 
 //Implement the PlanWave function.
-void ASpawner::PlanWave()
+void ASpawner::PlanWave(AActor* c, float t)
 {
-	NextWave = WaveString[WaveNumber];	
+	NextWave += WaveString[WaveNumber];	
 	WaveNumber += 1;
+	UpdateSpawnTime(t);
+	FOutputDeviceNull ar;
+	c->CallFunctionByNameWithArguments(TEXT("InformGameControlNewWave"), ar, NULL, true);
 
 }
 
@@ -59,8 +59,9 @@ void ASpawner::SpawnEnemy(AActor* c)
 	std::string nextEnemy(1, NextWave.c_str()[0]);
 	FString temp(nextEnemy.c_str());
 	EnemyToSpawn = temp;
-	//	NextWave.erase(0);
+	NextWave.erase(NextWave.begin());
 	c->CallFunctionByNameWithArguments(TEXT("BPSpawnEnemy"), ar, NULL, true);
+	UpdateSpawnTime(TimeMob);
 	
 }
 
@@ -74,7 +75,7 @@ void ASpawner::UpdateSpawnTime(float tm)
 //Implement the RushWave function.
 void ASpawner::RushWave()
 {
-//TODO
+	PlanWave(this, TimeMob);
 }
 
 //Implement the CreateWave function.
@@ -104,8 +105,6 @@ void ASpawner::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEven
 
 	Super::PostEditChangeProperty(PropertyChangedEvent);
 
-	PlanWave();
-	RushWave();
 
 }
 #endif
