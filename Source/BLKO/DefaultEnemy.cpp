@@ -60,13 +60,16 @@ void ADefaultEnemy::CalculateDead(AActor* c)
 
 //Implement UpgradeEnemy
 void ADefaultEnemy::UpgradeEnemy(float RoundNumber)
-{
-	if (RoundNumber >= 3) {
-		RoundNumber = RoundNumber*0.1 + 1;
-		Health *= RoundNumber;
-		Damage *= RoundNumber;
-		MovementSpeed *= RoundNumber;
-	}
+{	
+		//An enemy is upgraded according to the current Wave
+		//Wave 1 = 100%
+		//Wave 2 = 110%, etc
+		float _roundNumber = RoundNumber*0.1 + 1 - 0.1;
+		Health *= _roundNumber;
+		Damage *= _roundNumber;
+		MovementSpeed *= _roundNumber;
+		Worth = _roundNumber *10;
+
 }
 
 
@@ -77,6 +80,7 @@ void ADefaultEnemy::PostEditChangeProperty(FPropertyChangedEvent& PropertyChange
 {
 	isDead = false;
 	Health = 20;
+	Worth = 10;
 
 	Super::PostEditChangeProperty(PropertyChangedEvent);
 

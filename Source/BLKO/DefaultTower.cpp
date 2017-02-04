@@ -32,15 +32,16 @@ float ADefaultTower::SellTower()
 {
 	float refund = Cost*0.5;
 
-//	AActor::SetLifeSpan(2);
+	AActor::SetLifeSpan(0.1);
 
 	return refund;
 }
 
 
 //Implement Upgrade Function
-void ADefaultTower::UpgradeTower()
+float ADefaultTower::UpgradeTower()
 {
+	float price = UpgradeCost;
 	Cost += UpgradeCost;
 	UpgradeCost = Cost*UpgradeValue;
 	Damage *= UpgradeValue;
@@ -48,6 +49,8 @@ void ADefaultTower::UpgradeTower()
 	Range *= UpgradeValue;
 	UpdateTowerRange(this);
 	TowerLevel += 1;
+	
+	return price;
 }
 
 //Implement UpdateTowerRange Function

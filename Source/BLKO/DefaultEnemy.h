@@ -19,6 +19,11 @@
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
 			float Health = 20;
 
+		//Worth property
+		//How much gold does it award on death
+		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
+			float Worth = 10;
+
 		//Damage property
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
 			float Damage = 1;

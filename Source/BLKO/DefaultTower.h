@@ -17,13 +17,13 @@ public:
 	//The cost of building the tower
 	//Value is updated on Tower Upgrade and 50% of this value is returned to the player if the tower is sold
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
-		float Cost = 10;
+		float Cost = 100;
 
 	//UpgradeCost property
 	//The cost of Upgrading the tower
 	//This value is 150% of the tower's current Cost
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultTower")
-		float UpgradeCost = 15;
+		float UpgradeCost = 150;
 
 	//UpgradeValue property
 	//The multiplier on which the tower's values are increased on upgrade
@@ -83,7 +83,7 @@ public:
 	//Function that upgrades the tower's Damage, Attack Speed and Range.
 	//It also updates the Cost and UpgradeCost
 	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
-		virtual void UpgradeTower();
+		virtual float UpgradeTower();
 
 	//UpdateTowerRange function
 	//Function that updates the tower's SphereCollision Radius based on the tower's range
