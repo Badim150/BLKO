@@ -81,6 +81,7 @@ void ADefaultTower::LockOff(ADefaultEnemy* Target)
 
 
 //Implement DealDamage Function
+
 void ADefaultTower::DealDamage()
 {
 	TargetEnemy->DealDamage(Damage);

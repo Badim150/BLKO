@@ -104,7 +104,8 @@ public:
 	//DealDamage function
 	//Receives a target and applies Damage to it
 	UFUNCTION(BlueprintCallable, Category = "DefaultTower")
-		void DealDamage();
+		void DealDamage();	
+	//BACKUP, Projectile now applies damage
 
 	//Editor code to make updating values in the editor cleaner
 #if WITH_EDITOR
