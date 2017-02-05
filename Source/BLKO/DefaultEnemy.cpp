@@ -64,12 +64,12 @@ void ADefaultEnemy::UpgradeEnemy(int RoundNumber)
 		//An enemy is upgraded according to the current Wave
 		//Wave 1 = 100%
 		//Wave 2 = 110%, etc
-		float _roundNumber = RoundNumber*0.1 + 1 - 0.1;
+		float _roundNumber = RoundNumber*1.1 ;
 		Health *= _roundNumber;
 		Damage *= _roundNumber;
 		MovementSpeed *= _roundNumber;
 		Worth = _roundNumber *10;
-
+		
 }
 
 

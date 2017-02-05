@@ -25,40 +25,43 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
 		float TimeUntilNextWave = -1;
 
-	//NextWave property
-	//A string of int that corresponds to the enemies that will be spawned next.	
-
-	FString NextWave;
-
 	//TimeToSpawn property
 	//A float that has the time in game seconds until the spawner can spawn another enemy
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
 		float TimeToSpawn;
 
-	//Wave Strings
+	//WaveString property
 	//Stores the waves
 	FString WaveString;
+
+	//NextWave property
+	//A string of int that corresponds to the enemies that will be spawned next.
+	FString NextWave;
 
 	//EnemyToSpawn property
 	//FString that has the type of enemy to spawn next
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
 		FString EnemyToSpawn;
 
-	//TimeWave
+	//TimeWave property
 	//Float with the seconds between waves
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
-		float TimeWave = 8;
+		float TimeWave = 10;
 
-	//TimeMob
+	//TimeMob property
 	//Float with the seconds between waves
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
-		float TimeMob = 0.2;
-
-	//TimeBoss
+		float TimeMob = 0.5;
+	 
+	//TimeBoss property
 	//Float with the seconds between boss waves
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
-		float TimeBoss = 12;
+		float TimeBoss = 15;
 
+	//Enabled property
+	//Boolean that controls if the spawner is active or not
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawner")
+		bool Enabled = false;
 
 	//PlanWave function
 	//Function that will plan the next wave and store it
@@ -88,7 +91,24 @@ public:
 	//GetWaveFromFile function
 	//Function that loads the waves from an outside file
 	UFUNCTION(BlueprintCallable, Category = "Spawner")
-		void getWaveFromFile();
+		void GetWaveFromFile();
+
+	//EnableSpawner function
+	//Function that enables a disabled spawner and updates its waveNumber
+	UFUNCTION(BlueprintCallable, Category = "Spawner")
+		void EnableSpawner(int wave);
+
+	//DisableSpawner function
+	//Function that disables the spawner 
+	UFUNCTION(BlueprintCallable, Category = "Spawner")
+		void DisableSpawner();
+
+
+	//HardMode function
+	//Function that disables and enabled spawner
+	UFUNCTION(BlueprintCallable, Category = "Spawner")
+		void HardMode(int wave);
+
 	
 
 #if WITH_EDITOR

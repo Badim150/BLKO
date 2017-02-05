@@ -19,9 +19,7 @@ ASpawner::ASpawner()
 void ASpawner::BeginPlay()
 {
 	Super::BeginPlay();
-	WaveNumber = 0;
-	getWaveFromFile();
-
+	GetWaveFromFile();
 
 }
 
@@ -30,14 +28,15 @@ void ASpawner::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 
-	float _gameTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
-	
-	if (NextWave.IsEmpty()) {		
-		PlanWave(this, TimeWave);
-	}else if (_gameTime >= TimeToSpawn) {
-		SpawnEnemy(this);
-	}
-		
+	if (Enabled) {
+		float _gameTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
+		if (NextWave.IsEmpty()) {
+			PlanWave(this, TimeWave);
+		}
+		else if (_gameTime >= TimeToSpawn) {
+			SpawnEnemy(this);
+		}
+	}		
 }
 
 
@@ -56,29 +55,17 @@ void ASpawner::PlanWave(AActor* c, float t)
 }
 
 
-
 //Implement the SpawnEnemy function.
 void ASpawner::SpawnEnemy(AActor* c)
 {
-	//Remove 1st enemy in the list and spawn it
-	
+	//Remove 1st enemy in the list and spawn it	
 	FOutputDeviceNull ar;
 	std::string nextEnemy(1, NextWave[0]);
 	FString temp(nextEnemy.c_str());
 	EnemyToSpawn = temp;
 	NextWave.RemoveFromStart(EnemyToSpawn);
 	c->CallFunctionByNameWithArguments(TEXT("BPSpawnEnemy"), ar, NULL, true);
-
-	//Updates the spawner cooldown
-	//If the enemy is a Boss, a higher cooldown is enabled to help the player
-	if (nextEnemy == "4")
-	{
-		PlanWave(this, TimeBoss);
-	}
-	else {
-		UpdateSpawnTime(TimeMob);
-	}
-	
+	UpdateSpawnTime(TimeMob);
 }
 
 //Implement UpdateSpawnTime
@@ -95,10 +82,28 @@ void ASpawner::RushWave()
 }
 
 //Implement the GetWaveFromFile function.
-void ASpawner::getWaveFromFile() 
+void ASpawner::GetWaveFromFile() 
 {
 	FFileHelper::LoadFileToString(WaveString, *(FPaths::GameDir() + "Waves.txt"));
 		
+}
+
+//Implement EnableSpawner function
+void ASpawner::EnableSpawner(int wave) {
+	Enabled = true;
+}
+
+//Implement DisableSpawner function
+void ASpawner::DisableSpawner() {
+	SetLifeSpan(20);
+}
+
+//Implement EnableSpawner function
+void ASpawner::HardMode(int wave) {
+	NextWave.Empty();
+	WaveNumber = wave;
+	PlanWave(this, 20);
+
 }
 
 
@@ -130,7 +135,6 @@ void ASpawner::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEven
 	NextWave;
 
 	Super::PostEditChangeProperty(PropertyChangedEvent);
-
 
 }
 #endif
