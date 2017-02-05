@@ -20,7 +20,9 @@ void ASpawner::BeginPlay()
 {
 	Super::BeginPlay();
 	WaveNumber = 0;
-	
+	getWaveFromFile();
+
+
 }
 
 // Called every frame
@@ -30,7 +32,7 @@ void ASpawner::Tick( float DeltaTime )
 
 	float _gameTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
 	
-	if (NextWave.length() <= 0) {		
+	if (NextWave.IsEmpty()) {		
 		PlanWave(this, TimeWave);
 	}else if (_gameTime >= TimeToSpawn) {
 		SpawnEnemy(this);
@@ -42,7 +44,10 @@ void ASpawner::Tick( float DeltaTime )
 //Implement the PlanWave function.
 void ASpawner::PlanWave(AActor* c, float t)
 {
-	NextWave += WaveString[WaveNumber];	
+	FString temp;
+	WaveString.Split("\n", &temp, &WaveString, ESearchCase::CaseSensitive, ESearchDir::FromStart);
+	NextWave.Append(temp);
+
 	WaveNumber += 1;
 	UpdateSpawnTime(t);
 	FOutputDeviceNull ar;
@@ -55,13 +60,24 @@ void ASpawner::PlanWave(AActor* c, float t)
 //Implement the SpawnEnemy function.
 void ASpawner::SpawnEnemy(AActor* c)
 {
+	//Remove 1st enemy in the list and spawn it
+	
 	FOutputDeviceNull ar;
-	std::string nextEnemy(1, NextWave.c_str()[0]);
+	std::string nextEnemy(1, NextWave[0]);
 	FString temp(nextEnemy.c_str());
 	EnemyToSpawn = temp;
-	NextWave.erase(NextWave.begin());
+	NextWave.RemoveFromStart(EnemyToSpawn);
 	c->CallFunctionByNameWithArguments(TEXT("BPSpawnEnemy"), ar, NULL, true);
-	UpdateSpawnTime(TimeMob);
+
+	//Updates the spawner cooldown
+	//If the enemy is a Boss, a higher cooldown is enabled to help the player
+	if (nextEnemy == "4")
+	{
+		PlanWave(this, TimeBoss);
+	}
+	else {
+		UpdateSpawnTime(TimeMob);
+	}
 	
 }
 
@@ -78,6 +94,14 @@ void ASpawner::RushWave()
 	PlanWave(this, TimeMob);
 }
 
+//Implement the GetWaveFromFile function.
+void ASpawner::getWaveFromFile() 
+{
+	FFileHelper::LoadFileToString(WaveString, *(FPaths::GameDir() + "Waves.txt"));
+		
+}
+
+
 //Implement the CreateWave function.
 //EnemyNumer is the number of enemies that will spawn this wave: 10-30
 //Difficulty is how hard the wave is: 1-3 or 4 for Boss
@@ -93,6 +117,8 @@ void ASpawner::CreateWave(int EnemyNumber, int Difficulty)
  */
  //Deprecated, to use if I decide to implement random waves after boss
 }
+
+
 
 
 #if WITH_EDITOR
