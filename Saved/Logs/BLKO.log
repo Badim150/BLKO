@@ -1,0 +1,1566 @@
+﻿Log file open, 02/06/17 21:19:28
+LogInit:Display: Running engine for game: BLKO
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(639567730) SRandInit(639567730).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083203
+LogPluginManager: Loaded Plugin Paper2D, From D:/Program Files/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Program Files/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Program Files/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Program Files/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Program Files/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Program Files/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.06-21.19.28:791][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.06-21.19.28:791][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.06-21.19.28:804][  0]LogInit: Computer: BADIM-ALIEN
+[2017.02.06-21.19.28:804][  0]LogInit: User: Carlos
+[2017.02.06-21.19.28:804][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.06-21.19.28:804][  0]LogInit: High frequency timer resolution =2.338332 MHz
+[2017.02.06-21.19.28:804][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.06-21.19.28:804][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.06-21.19.28:804][  0]LogMemory: Process Physical Memory: 263.23 MB used, 263.23 MB peak
+[2017.02.06-21.19.28:804][  0]LogMemory: Process Virtual Memory: 262.83 MB used, 262.83 MB peak
+[2017.02.06-21.19.28:804][  0]LogMemory: Physical Memory: 6785.39 MB used,  9479.64 MB free, 16265.02 MB total
+[2017.02.06-21.19.28:804][  0]LogMemory: Virtual Memory: 676.41 MB used,  9479.64 MB free, 134217728.00 MB total
+[2017.02.06-21.19.28:838][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.02.06-21.19.29:595][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.06-21.19.29:636][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 765M' (Feature Level 11_0)
+[2017.02.06-21.19.29:636][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.02.06-21.19.29:646][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.02.06-21.19.29:646][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.02.06-21.19.29:648][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.06-21.19.29:648][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.06-21.19.29:648][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.06-21.19.29:672][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.06-21.19.29:672][  0]LogD3D11RHI:     GPU DeviceId: 0x11e1 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.06-21.19.29:672][  0]LogWindows: EnumDisplayDevices:
+[2017.02.06-21.19.29:672][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.02.06-21.19.29:672][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.02.06-21.19.29:673][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.02.06-21.19.29:673][  0]LogWindows:    3. 'NVIDIA GeForce GTX 765M' (P:0 D:1)
+[2017.02.06-21.19.29:673][  0]LogWindows:    4. 'NVIDIA GeForce GTX 765M' (P:0 D:0)
+[2017.02.06-21.19.29:673][  0]LogWindows:    5. 'NVIDIA GeForce GTX 765M' (P:0 D:0)
+[2017.02.06-21.19.29:673][  0]LogWindows:    6. 'NVIDIA GeForce GTX 765M' (P:0 D:0)
+[2017.02.06-21.19.29:673][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.02.06-21.19.29:673][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 765M
+[2017.02.06-21.19.29:673][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.02.06-21.19.29:673][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.02.06-21.19.29:673][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.06-21.19.29:695][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.02.06-21.19.29:695][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.06-21.19.29:714][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.02.06-21.19.29:714][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../../Unreal Projects/BLKO/Intermediate/Shaders/WorkingDirectory/106080/).
+[2017.02.06-21.19.29:714][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Carlos/AppData/Local/Temp/UnrealShaderWorkingDir/0C98440E4557B990254F1FAD0589A2D6/'.
+[2017.02.06-21.19.29:714][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.06-21.19.31:161][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.06-21.19.31:218][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.06-21.19.31:275][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.06-21.19.31:332][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.06-21.19.31:393][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.06-21.19.31:450][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.06-21.19.31:504][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.06-21.19.31:562][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.06-21.19.31:605][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.06-21.19.31:662][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.06-21.19.31:724][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.06-21.19.31:778][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.06-21.19.31:834][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.06-21.19.31:887][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.06-21.19.31:942][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.06-21.19.32:052][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.06-21.19.32:052][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.06-21.19.32:087][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.06-21.19.32:172][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.06-21.19.32:207][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.06-21.19.32:263][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.06-21.19.32:319][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.06-21.19.32:375][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.06-21.19.32:431][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.06-21.19.32:431][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.06-21.19.32:782][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.06-21.19.32:874][  0]LogDerivedDataCache: Loaded boot cache 0.09s 52MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.06-21.19.32:875][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carlos/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.06-21.19.32:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/BLKO/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.06-21.19.32:875][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.06-21.19.32:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/BLKO/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.06-21.19.32:875][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.06-21.19.32:896][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.06-21.19.32:910][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carlos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.06-21.19.33:156][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.06-21.19.33:160][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.06-21.19.33:392][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.06-21.19.33:433][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.06-21.19.33:477][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.06-21.19.33:477][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.06-21.19.33:477][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.06-21.19.34:118][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: blko, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 172567305
+[2017.02.06-21.19.34:179][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.02.06-21.19.34:231][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.031165 seconds
+[2017.02.06-21.19.34:239][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.06-21.19.34:239][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.02.06-21.19.34:239][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.06-21.19.34:291][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.06-21.19.34:984][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.06-21.19.34:984][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.06-21.19.34:984][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.06-21.19.35:944][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.06-21.19.35:981][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.06-21.19.36:318][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.06-21.19.36:705][  0]SourceControl: Info Source control is disabled
+[2017.02.06-21.19.36:719][  0]SourceControl: Info Source control is disabled
+[2017.02.06-21.19.36:762][  0]SourceControl: Info Source control is disabled
+[2017.02.06-21.19.36:801][  0]SourceControl: Info Source control is disabled
+[2017.02.06-21.19.38:004][  0]LogEngine: Initializing Engine...
+[2017.02.06-21.19.38:005][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.06-21.19.38:306][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.06-21.19.38:315][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.06-21.19.38:350][  0]LogInit: FAudioDevice initialized.
+[2017.02.06-21.19.38:395][  0]LogDerivedDataCache: Saved boot cache 0.04s 52MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.06-21.19.38:409][  0]LogInit: Texture streaming: Enabled
+[2017.02.06-21.19.38:616][  0]LogInit: Transaction tracking system initialized
+[2017.02.06-21.19.38:933][  0]BlueprintLog: New page: Editor Load
+[2017.02.06-21.19.39:746][  0]LocalizationService: Info Localization service is disabled
+[2017.02.06-21.19.41:201][  0]LogConsoleResponse:Display: 
+[2017.02.06-21.19.41:368][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.06-21.19.41:368][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.06-21.19.41:873][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/BLKO/Content/' took 0.02s
+[2017.02.06-21.19.42:232][  0]SourceControl: Info Source control is disabled
+[2017.02.06-21.19.42:233][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/BLKO/Content/GameBlueprints/Maps/LevelMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.06-21.19.42:233][  0]LightingResults: New page: Lighting Build
+[2017.02.06-21.19.42:269][  0]MapCheck: New page: Map Check
+[2017.02.06-21.19.42:269][  0]LightingResults: New page: Lighting Build
+[2017.02.06-21.19.43:900][  0]LogAIModule: Creating AISystem for world LevelMap
+[2017.02.06-21.19.43:912][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.06-21.19.43:914][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.06-21.19.43:982][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.323ms to complete.
+[2017.02.06-21.19.43:982][  0]LogFileHelpers: Loading map 'LevelMap' took 1.750
+[2017.02.06-21.19.44:148][  0]LogCollectionManager: Loaded 1 collections in 0.001880 seconds
+[2017.02.06-21.19.44:225][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/BLKO/Saved/Collections/' took 0.01s
+[2017.02.06-21.19.44:225][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/BLKO/Content/Developers/Carlos/Collections/' took 0.01s
+[2017.02.06-21.19.44:225][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/BLKO/Content/Collections/' took 0.01s
+[2017.02.06-21.19.44:225][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000006 seconds
+[2017.02.06-21.19.44:225][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.02.06-21.19.44:236][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2195 classes and 430 folders.
+[2017.02.06-21.19.44:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.06-21.19.44:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.06-21.19.44:278][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0016 seconds. Added 13 classes and 0 folders.
+[2017.02.06-21.19.44:333][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.02.06-21.19.44:385][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.02.06-21.19.44:430][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.02.06-21.19.44:537][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.06-21.19.44:547][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.06-21.19.44:617][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.02.06-21.19.44:617][  0]LogLoad: (Engine Initialization) Total time: 17.40 seconds
+[2017.02.06-21.19.44:617][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.64 seconds
+[2017.02.06-21.19.44:618][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.06-21.19.44:618][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.06-21.19.44:635][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.06-21.19.44:635][  0]LogOcInput: OculusInput pre-init called
+[2017.02.06-21.19.44:659][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.02.06-21.19.44:844][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.02.06-21.19.44:972][  2]LogAssetRegistry: Asset discovery search completed in 10.8159 seconds
+[2017.02.06-21.19.44:973][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000009 seconds (found 0 objects)
+[2017.02.06-21.19.44:973][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000034 seconds (updated 0 objects)
+[2017.02.06-21.20.14:763][843]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 111 classes and 0 folders.
+[2017.02.06-21.20.39:857][249]BlueprintLog: New page: Compile GameOverMenu
+[2017.02.06-21.20.40:628][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBlueprints/Widgets/GameOverMenu" FILE="../../../../../../Unreal Projects/BLKO/Content/GameBlueprints/Widgets/GameOverMenu.uasset" SILENT=true
+[2017.02.06-21.20.40:684][273]LogSavePackage: Save=45.09ms
+[2017.02.06-21.20.40:684][273]LogSavePackage: Moving '../../../../../../Unreal Projects/BLKO/Saved/GameOverMenuE4247DFD4FBFB7E057661DBE04C70188.tmp' to '../../../../../../Unreal Projects/BLKO/Content/GameBlueprints/Widgets/GameOverMenu.uasset'
+[2017.02.06-21.20.40:687][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal Projects/BLKO/Content/GameBlueprints/Widgets/GameOverMenu.uasset
+[2017.02.06-21.21.04:985][ 64]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BLKO
+
+[2017.02.06-21.21.04:986][ 64]LogTemp:Display: CWD: D:\Program Files\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.02.06-21.21.04:986][ 64]LogTemp:Display: Initial Dir: D:\Program Files\Epic Games\4.14
+
+[2017.02.06-21.21.04:986][ 64]LogTemp:Display: Env CWD: D:\Program Files\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.02.06-21.21.04:986][ 64]LogTemp:Display: BranchPath = BADIM-ALIEN/D/Program Files/Epic Games/4.14/Engine/Binaries --- GameBranchPath = BADIM-ALIEN/D/Program Files/Epic Games/4.14/Engine/Binaries
+
+[2017.02.06-21.21.04:986][ 64]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.02.06-21.21.05:102][ 65]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Carlos\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.02.06-21.21.05:103][ 65]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.02.06-21.21.05:103][ 65]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.02.06-21.21.05:103][ 65]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.02.06-21.21.05:103][ 65]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.02.06-21.21.05:103][ 65]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.02.06-21.21.06:851][163]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:852][163]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:852][163]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.06:871][164]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:871][164]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.06:885][165]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:885][165]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.06:901][166]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:902][166]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.06:918][167]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:918][167]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.06:934][168]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:935][168]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.06:951][169]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:951][169]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.06:968][170]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:968][170]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.06:985][171]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.06:985][171]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:002][172]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:002][172]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:017][173]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:018][173]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:035][174]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:035][174]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:051][175]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:051][175]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:068][176]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:068][176]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:084][177]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:085][177]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:104][178]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:104][178]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:119][179]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:119][179]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:135][180]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:135][180]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:152][181]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:152][181]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:168][182]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:168][182]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:186][183]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:186][183]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:202][184]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:202][184]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:218][185]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:218][185]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:235][186]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:235][186]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:253][187]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:254][187]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:272][188]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:272][188]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:290][189]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:290][189]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:306][190]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:306][190]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:322][191]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:322][191]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:338][192]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:339][192]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:356][193]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:356][193]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:372][194]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:373][194]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:389][195]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:389][195]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:405][196]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:405][196]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:422][197]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:422][197]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:439][198]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:439][198]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:455][199]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:456][199]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:472][200]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:472][200]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:489][201]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:489][201]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:505][202]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:506][202]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:522][203]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:522][203]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:539][204]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:539][204]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:556][205]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:556][205]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:572][206]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:573][206]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:589][207]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:589][207]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:605][208]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:606][208]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:622][209]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:622][209]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:638][210]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:639][210]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:655][211]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:655][211]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:672][212]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:672][212]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:688][213]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:689][213]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:705][214]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:705][214]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:721][215]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:722][215]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:738][216]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:738][216]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:755][217]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:755][217]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:771][218]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:772][218]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:788][219]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:788][219]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:805][220]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:805][220]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:821][221]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:822][221]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:838][222]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:838][222]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:873][223]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:873][223]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:903][224]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:903][224]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:919][225]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:919][225]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:936][226]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:936][226]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:953][227]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:953][227]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:969][228]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:969][228]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.07:985][229]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.07:986][229]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:002][230]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:002][230]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:018][231]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:019][231]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:035][232]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:035][232]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:052][233]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:052][233]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:069][234]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:069][234]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:085][235]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:086][235]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:102][236]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:102][236]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:118][237]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:119][237]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:135][238]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:136][238]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:152][239]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:153][239]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:169][240]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:169][240]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:186][241]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:187][241]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:203][242]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:203][242]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:219][243]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:220][243]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:237][244]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:237][244]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:253][245]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:253][245]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:269][246]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:270][246]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:286][247]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:286][247]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:303][248]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:304][248]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:320][249]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:320][249]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:338][250]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:338][250]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:354][251]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:354][251]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:370][252]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:371][252]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:386][253]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:387][253]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:403][254]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:403][254]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:419][255]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:420][255]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:435][256]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:436][256]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:452][257]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:452][257]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:469][258]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:470][258]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:486][259]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:486][259]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:503][260]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:503][260]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:519][261]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:520][261]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:536][262]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:536][262]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:553][263]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:553][263]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:569][264]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:569][264]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:586][265]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:586][265]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:603][266]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:603][266]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:619][267]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:620][267]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:636][268]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:637][268]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:652][269]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:653][269]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:670][270]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:671][270]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:686][271]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:686][271]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:719][272]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:720][272]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:749][273]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:749][273]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:766][274]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:766][274]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:782][275]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:782][275]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:799][276]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:799][276]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:815][277]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:815][277]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:833][278]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:833][278]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:849][279]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:850][279]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:867][280]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:868][280]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:883][281]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:883][281]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:899][282]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:900][282]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:916][283]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:916][283]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:933][284]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:934][284]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:949][285]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:950][285]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:967][286]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:967][286]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.08:983][287]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.08:983][287]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:000][288]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:000][288]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:018][289]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:018][289]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:036][290]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:036][290]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:052][291]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:052][291]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:068][292]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:068][292]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:086][293]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:086][293]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:104][294]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:104][294]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:119][295]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:120][295]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:137][296]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:137][296]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:152][297]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:153][297]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:171][298]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:171][298]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:185][299]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:186][299]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:202][300]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:202][300]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:217][301]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:218][301]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:235][302]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:235][302]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:253][303]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:254][303]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:268][304]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:268][304]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:289][305]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:289][305]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:305][306]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:305][306]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:321][307]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:322][307]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:338][308]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:338][308]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:354][309]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:355][309]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:370][310]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:371][310]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:387][311]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:388][311]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:404][312]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:404][312]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:421][313]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:421][313]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:438][314]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:438][314]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:455][315]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:456][315]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:472][316]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:472][316]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:488][317]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:488][317]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:505][318]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:506][318]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:522][319]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:522][319]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:538][320]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:538][320]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:554][321]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:555][321]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:575][322]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:576][322]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:588][323]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:588][323]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:604][324]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:605][324]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:621][325]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:621][325]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:638][326]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:638][326]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:796][327]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:796][327]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:810][328]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:810][328]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:827][329]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:828][329]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:845][330]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:845][330]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:860][331]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:860][331]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:877][332]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:877][332]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:894][333]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:894][333]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:910][334]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:910][334]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:926][335]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:927][335]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:943][336]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:943][336]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:960][337]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:960][337]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:976][338]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:977][338]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.09:993][339]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.09:993][339]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:009][340]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:010][340]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:028][341]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:029][341]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:044][342]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:045][342]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:061][343]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:062][343]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:078][344]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:078][344]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:095][345]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:095][345]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:110][346]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:111][346]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:129][347]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:129][347]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:145][348]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:146][348]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:161][349]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:162][349]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:178][350]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:178][350]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:195][351]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:195][351]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:210][352]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:210][352]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:228][353]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:228][353]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:244][354]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:244][354]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:260][355]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:261][355]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:277][356]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:278][356]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:294][357]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:294][357]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:310][358]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:310][358]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:327][359]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:327][359]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:344][360]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:344][360]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:361][361]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:362][361]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:377][362]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:377][362]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:395][363]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:395][363]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:410][364]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:410][364]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:427][365]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:427][365]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:445][366]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:445][366]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:460][367]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:460][367]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:477][368]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:477][368]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:494][369]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:494][369]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:510][370]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:510][370]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:528][371]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:528][371]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:543][372]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:544][372]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:562][373]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:563][373]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:577][374]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:578][374]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:594][375]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:594][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:610][376]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:610][376]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:627][377]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:628][377]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:643][378]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:644][378]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:663][379]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:663][379]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:679][380]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:679][380]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:694][381]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:694][381]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:710][382]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:710][382]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:727][383]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:727][383]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:743][384]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:744][384]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:760][385]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:760][385]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:776][386]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:777][386]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:793][387]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:794][387]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:810][388]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:810][388]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:827][389]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:828][389]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:844][390]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:844][390]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:862][391]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:862][391]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:878][392]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:878][392]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:894][393]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:894][393]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:910][394]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:910][394]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:927][395]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:927][395]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:943][396]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:943][396]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:960][397]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:960][397]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:976][398]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:977][398]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.10:993][399]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.10:994][399]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:015][400]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:016][400]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:030][401]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:030][401]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:045][402]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:045][402]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:062][403]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:062][403]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:079][404]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:079][404]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:095][405]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:096][405]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:112][406]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:113][406]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:129][407]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:129][407]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:146][408]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:146][408]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:162][409]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:163][409]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:179][410]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:179][410]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:196][411]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:197][411]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:213][412]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:213][412]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:229][413]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:230][413]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:246][414]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:246][414]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:263][415]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:263][415]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:280][416]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:280][416]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:296][417]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:297][417]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:312][418]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:313][418]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:329][419]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:329][419]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:346][420]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:346][420]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:362][421]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:362][421]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:380][422]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:380][422]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:395][423]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:395][423]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:412][424]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:412][424]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:429][425]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:429][425]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:446][426]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:447][426]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:462][427]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:463][427]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:480][428]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:480][428]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:496][429]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:497][429]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:512][430]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:512][430]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:529][431]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:529][431]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:546][432]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:546][432]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:562][433]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:563][433]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:579][434]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:579][434]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:596][435]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:596][435]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:612][436]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:613][436]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:630][437]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:630][437]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:646][438]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:646][438]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:666][439]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:666][439]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:685][440]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:685][440]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:700][441]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:701][441]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:718][442]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:718][442]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:734][443]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:734][443]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:751][444]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:752][444]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:766][445]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:767][445]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:784][446]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:784][446]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:799][447]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:800][447]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:817][448]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:817][448]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:834][449]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:835][449]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:851][450]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:851][450]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:868][451]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:868][451]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:884][452]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:885][452]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:901][453]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:901][453]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:917][454]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:917][454]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:933][455]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:934][455]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:953][456]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:953][456]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:971][457]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:971][457]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.11:987][458]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.11:987][458]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:003][459]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:003][459]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:020][460]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:020][460]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:037][461]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:037][461]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:054][462]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:054][462]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:070][463]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:070][463]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:087][464]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:087][464]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:104][465]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:104][465]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:120][466]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:121][466]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:138][467]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:138][467]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:155][468]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:155][468]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:170][469]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:171][469]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:187][470]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:187][470]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:203][471]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:203][471]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:220][472]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:220][472]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:236][473]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:236][473]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:253][474]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:254][474]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:269][475]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:269][475]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:286][476]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:286][476]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:302][477]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:303][477]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:320][478]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:320][478]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:336][479]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:336][479]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:353][480]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:353][480]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:370][481]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:370][481]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:386][482]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:387][482]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:402][483]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:403][483]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:433][484]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:433][484]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:447][485]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:447][485]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:463][486]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:463][486]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:480][487]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:480][487]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:496][488]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:497][488]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:513][489]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:514][489]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:530][490]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:530][490]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:547][491]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:547][491]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:563][492]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:564][492]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:581][493]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:581][493]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:597][494]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:597][494]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:613][495]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:614][495]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:630][496]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:630][496]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:647][497]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:648][497]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:663][498]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:663][498]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:680][499]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:681][499]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:697][500]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:697][500]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:713][501]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:714][501]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:730][502]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:730][502]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:747][503]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:748][503]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:763][504]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:763][504]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:780][505]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:780][505]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:796][506]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:797][506]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:813][507]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:814][507]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:831][508]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:831][508]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:846][509]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:847][509]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:863][510]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:863][510]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:880][511]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:880][511]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:896][512]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:897][512]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:913][513]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:914][513]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:929][514]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:930][514]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:947][515]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:947][515]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:963][516]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:963][516]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:980][517]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:980][517]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.12:996][518]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.12:996][518]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:014][519]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:014][519]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:029][520]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:030][520]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:047][521]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:047][521]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:063][522]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:063][522]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:079][523]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:080][523]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:096][524]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:096][524]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:113][525]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:113][525]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:129][526]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:130][526]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:146][527]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:146][527]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:163][528]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:163][528]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:180][529]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:180][529]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:196][530]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:196][530]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:213][531]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:213][531]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:230][532]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:230][532]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:247][533]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:247][533]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:263][534]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:264][534]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:280][535]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:281][535]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:296][536]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:297][536]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:313][537]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:314][537]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:330][538]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:330][538]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:346][539]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:347][539]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:363][540]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:364][540]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:380][541]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:380][541]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:396][542]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:396][542]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:413][543]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:413][543]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:430][544]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:430][544]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:446][545]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:446][545]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:463][546]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:463][546]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:480][547]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:480][547]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:496][548]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:496][548]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:513][549]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:514][549]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:530][550]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:530][550]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:546][551]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:547][551]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:563][552]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:563][552]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:580][553]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:580][553]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:596][554]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:596][554]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:613][555]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:613][555]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:630][556]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:630][556]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:647][557]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:647][557]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:664][558]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:664][558]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:680][559]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:680][559]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:697][560]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:697][560]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:714][561]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:714][561]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:730][562]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:730][562]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:747][563]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:747][563]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:763][564]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:763][564]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:780][565]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:780][565]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:797][566]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:797][566]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:813][567]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:814][567]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:830][568]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:830][568]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:847][569]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:847][569]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:863][570]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:863][570]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:880][571]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:880][571]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:897][572]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:897][572]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:913][573]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:914][573]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:930][574]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:930][574]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:947][575]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:947][575]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:963][576]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:963][576]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:980][577]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:980][577]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.13:996][578]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.13:997][578]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:013][579]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:014][579]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:029][580]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:029][580]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:047][581]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:047][581]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:064][582]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:064][582]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:080][583]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:080][583]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:096][584]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:097][584]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:114][585]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:114][585]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:130][586]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:130][586]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:147][587]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:147][587]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:163][588]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:163][588]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:180][589]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:180][589]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:197][590]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:197][590]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:213][591]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:214][591]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:230][592]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:230][592]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:246][593]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:247][593]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:263][594]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:263][594]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:280][595]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:280][595]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:297][596]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:297][596]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:313][597]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:313][597]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:330][598]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:330][598]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:347][599]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:347][599]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:364][600]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:364][600]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:380][601]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:380][601]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:397][602]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:397][602]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:413][603]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:413][603]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:430][604]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:430][604]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:446][605]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:447][605]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:463][606]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:463][606]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:479][607]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:480][607]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:496][608]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:496][608]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:513][609]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:513][609]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.14:529][610]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.14:530][610]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.21:582][ 22]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.06-21.21.21:614][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap' with GeneratedClass '/Game/GameBlueprints/Maps/LevelMap.LevelMap_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap'
+[2017.02.06-21.21.21:614][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.06-21.21.21:614][ 22]PIE: New page: PIE session: LevelMap (6 Feb 2017 21:21:21)
+[2017.02.06-21.21.21:615][ 22]LogPlayLevel: Creating play world package: /Game/GameBlueprints/Maps/UEDPIE_0_LevelMap
+[2017.02.06-21.21.21:655][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040225s)
+[2017.02.06-21.21.21:656][ 22]LogAIModule: Creating AISystem for world LevelMap
+[2017.02.06-21.21.21:656][ 22]LogPlayLevel: PIE: World Init took: (0.001291s)
+[2017.02.06-21.21.21:657][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBlueprints/Maps/LevelMap.LevelMap to /Game/GameBlueprints/Maps/UEDPIE_0_LevelMap.LevelMap (0.042259s)
+[2017.02.06-21.21.21:688][ 22]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.06-21.21.21:702][ 22]LogInit: FAudioDevice initialized.
+[2017.02.06-21.21.21:752][ 22]LogLoad: Game class is 'BLKOGameMode_C'
+[2017.02.06-21.21.21:756][ 22]LogWorld: Bringing World /Game/GameBlueprints/Maps/UEDPIE_0_LevelMap.LevelMap up for play (max tick rate 60) at 2017.02.06-21.21.21
+[2017.02.06-21.21.21:756][ 22]LogGameMode:Warning: No GameStateClass was specified in BLKOGameMode_C_0 (BLKOGameMode_C)
+[2017.02.06-21.21.21:757][ 22]LogWorld: Bringing up level for play took: 0.003074
+[2017.02.06-21.21.21:799][ 22]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2017.02.06-21.21.21:925][ 22]PIE: Info Play in editor start time for /Game/GameBlueprints/Maps/UEDPIE_0_LevelMap 0.105
+[2017.02.06-21.21.21:926][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap' with GeneratedClass '/Game/GameBlueprints/Maps/LevelMap.LevelMap_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap'
+[2017.02.06-21.21.37:918][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap' with GeneratedClass '/Game/GameBlueprints/Maps/LevelMap.LevelMap_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap'
+[2017.02.06-21.21.37:969][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap' with GeneratedClass '/Game/GameBlueprints/Maps/LevelMap.LevelMap_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap'
+[2017.02.06-21.21.42:747][263]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.06-21.21.42:767][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap' with GeneratedClass '/Game/GameBlueprints/Maps/LevelMap.LevelMap_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap'
+[2017.02.06-21.21.42:767][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.06-21.21.42:767][263]PIE: New page: PIE session: LevelMap (6 Feb 2017 21:21:42)
+[2017.02.06-21.21.42:767][263]LogPlayLevel: Creating play world package: /Game/GameBlueprints/Maps/UEDPIE_0_LevelMap
+[2017.02.06-21.21.42:800][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032522s)
+[2017.02.06-21.21.42:801][263]LogAIModule: Creating AISystem for world LevelMap
+[2017.02.06-21.21.42:802][263]LogPlayLevel: PIE: World Init took: (0.001223s)
+[2017.02.06-21.21.42:802][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBlueprints/Maps/LevelMap.LevelMap to /Game/GameBlueprints/Maps/UEDPIE_0_LevelMap.LevelMap (0.034520s)
+[2017.02.06-21.21.42:829][263]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.06-21.21.42:846][263]LogInit: FAudioDevice initialized.
+[2017.02.06-21.21.42:884][263]LogLoad: Game class is 'BLKOGameMode_C'
+[2017.02.06-21.21.42:888][263]LogWorld: Bringing World /Game/GameBlueprints/Maps/UEDPIE_0_LevelMap.LevelMap up for play (max tick rate 60) at 2017.02.06-21.21.42
+[2017.02.06-21.21.42:888][263]LogGameMode:Warning: No GameStateClass was specified in BLKOGameMode_C_0 (BLKOGameMode_C)
+[2017.02.06-21.21.42:889][263]LogWorld: Bringing up level for play took: 0.002798
+[2017.02.06-21.21.43:015][263]PIE: Info Play in editor start time for /Game/GameBlueprints/Maps/UEDPIE_0_LevelMap 1.194
+[2017.02.06-21.21.43:015][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap' with GeneratedClass '/Game/GameBlueprints/Maps/LevelMap.LevelMap_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap'
+[2017.02.06-21.21.44:482][349]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap' with GeneratedClass '/Game/GameBlueprints/Maps/LevelMap.LevelMap_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap'
+[2017.02.06-21.21.44:531][349]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap' with GeneratedClass '/Game/GameBlueprints/Maps/LevelMap.LevelMap_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/LevelMap.LevelMap:PersistentLevel.LevelMap'
+[2017.02.06-21.21.49:611][644]LogAIModule: Creating AISystem for world Main
+[2017.02.06-21.21.49:637][644]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/BLKO/Content/GameBlueprints/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.06-21.21.49:638][644]LightingResults: New page: Lighting Build
+[2017.02.06-21.21.49:639][644]LoadErrors: New page: Loading map: Main.umap
+[2017.02.06-21.21.49:640][644]MapCheck: New page: Map Check
+[2017.02.06-21.21.49:640][644]LightingResults: New page: Lighting Build
+[2017.02.06-21.21.49:735][644]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.06-21.21.49:761][644]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.06-21.21.49:832][644]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.288ms to complete.
+[2017.02.06-21.21.49:833][644]LogFileHelpers: Loading map 'Main' took 0.197
+[2017.02.06-21.21.50:990][712]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.06-21.21.51:008][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/GameBlueprints/Maps/Main.Main_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel.Main'
+[2017.02.06-21.21.51:009][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.06-21.21.51:009][712]PIE: New page: PIE session: Main (6 Feb 2017 21:21:51)
+[2017.02.06-21.21.51:009][712]LogPlayLevel: Creating play world package: /Game/GameBlueprints/Maps/UEDPIE_0_Main
+[2017.02.06-21.21.51:012][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002113s)
+[2017.02.06-21.21.51:013][712]LogAIModule: Creating AISystem for world Main
+[2017.02.06-21.21.51:013][712]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2017.02.06-21.21.51:014][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBlueprints/Maps/Main.Main to /Game/GameBlueprints/Maps/UEDPIE_0_Main.Main (0.004281s)
+[2017.02.06-21.21.51:039][712]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.06-21.21.51:054][712]LogInit: FAudioDevice initialized.
+[2017.02.06-21.21.51:090][712]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.51:091][712]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Blueprints/PuzzleGameMode'
+[2017.02.06-21.21.51:091][712]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2017.02.06-21.21.51:091][712]LogLoad: Game class is 'GameModeBase'
+[2017.02.06-21.21.51:094][712]LogWorld: Bringing World /Game/GameBlueprints/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.02.06-21.21.51
+[2017.02.06-21.21.51:094][712]LogWorld: Bringing up level for play took: 0.001745
+[2017.02.06-21.21.51:099][712]PIE: Info Play in editor start time for /Game/GameBlueprints/Maps/UEDPIE_0_Main -0.722
+[2017.02.06-21.21.51:099][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/GameBlueprints/Maps/Main.Main_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel.Main'
+[2017.02.06-21.21.53:856][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/GameBlueprints/Maps/Main.Main_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel.Main'
+[2017.02.06-21.21.53:891][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/GameBlueprints/Maps/Main.Main_C' with ClassGeneratedBy '/Game/GameBlueprints/Maps/Main.Main:PersistentLevel.Main'
+[2017.02.06-21.22.50:967][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBlueprints/Maps/Main" FILE="../../../../../../Unreal Projects/BLKO/Content/GameBlueprints/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.06-21.22.51:118][441]LogSavePackage: Save=121.83ms
+[2017.02.06-21.22.51:118][441]LogSavePackage: Moving '../../../../../../Unreal Projects/BLKO/Saved/Main092F735A470188C7B7E0A78E39A08C33.tmp' to '../../../../../../Unreal Projects/BLKO/Content/GameBlueprints/Maps/Main.umap'
+[2017.02.06-21.22.51:119][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal Projects/BLKO/Content/GameBlueprints/Maps/Main.umap
+[2017.02.06-21.22.51:150][441]LogFileHelpers: Saving map 'Main' took 0.250
+[2017.02.06-21.22.52:906][538]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.06-21.22.53:156][539]Cmd: QUIT_EDITOR
+[2017.02.06-21.22.53:689][539]LogExit: Preparing to exit.
+[2017.02.06-21.22.54:109][539]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/BLKO/Content/' was aborted.
+[2017.02.06-21.22.54:162][539]LogExit: Editor shut down
+[2017.02.06-21.22.54:163][539]LogExit: Transaction tracking system shut down
+[2017.02.06-21.22.54:304][539]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.06-21.22.54:304][539]LogExit: Object subsystem successfully closed.
+[2017.02.06-21.22.54:319][539]LogD3D11RHI: Shutdown
+[2017.02.06-21.22.54:319][539]LogD3D11RHI: CleanupD3DDevice
+[2017.02.06-21.22.54:419][539]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.06-21.22.54:428][539]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.02.06-21.22.54:428][539]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD53098CA-4E0F-58A1-090E-5BBB5FD12B9A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=c6dafa5f4c8d91dc08e0f69686e34649%7Cb8e039ebb1904c9aa23b736c0702fcb5%7C9f8a7cb1-0bce-48a6-a6b8-4330302a240d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.02.06-21.22.54:450][539]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (247)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (246)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module SequencerWidgets (245)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module SceneOutliner (240)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2017.02.06-21.22.54:451][539]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2017.02.06-21.22.54:451][539]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.02.06-21.22.54:452][539]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2017.02.06-21.22.54:452][539]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2017.02.06-21.22.54:452][539]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2017.02.06-21.22.54:452][539]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/BLKO/Content/Collections/' was aborted.
+[2017.02.06-21.22.54:452][539]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/BLKO/Content/Developers/Carlos/Collections/' was aborted.
+[2017.02.06-21.22.54:452][539]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/BLKO/Saved/Collections/' was aborted.
+[2017.02.06-21.22.54:452][539]LogModuleManager: Shutting down and abandoning module StatsViewer (234)
+[2017.02.06-21.22.54:453][539]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2017.02.06-21.22.54:453][539]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2017.02.06-21.22.54:487][539]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module Media (216)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2017.02.06-21.22.54:495][539]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2017.02.06-21.22.54:529][539]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2017.02.06-21.22.54:530][539]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2017.02.06-21.22.54:573][539]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2017.02.06-21.22.54:573][539]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2017.02.06-21.22.54:573][539]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2017.02.06-21.22.54:588][539]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2017.02.06-21.22.54:589][539]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2017.02.06-21.22.54:589][539]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2017.02.06-21.22.54:589][539]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2017.02.06-21.22.54:589][539]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2017.02.06-21.22.54:589][539]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2017.02.06-21.22.54:597][539]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2017.02.06-21.22.54:597][539]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2017.02.06-21.22.54:597][539]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2017.02.06-21.22.54:597][539]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2017.02.06-21.22.54:597][539]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2017.02.06-21.22.54:598][539]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.02.06-21.22.54:727][539]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.02.06-21.22.54:727][539]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/BLKO/Binaries/Win64' was aborted.
+[2017.02.06-21.22.54:729][539]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.02.06-21.22.54:729][539]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.02.06-21.22.54:729][539]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.02.06-21.22.54:730][539]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.02.06-21.22.54:730][539]LogModuleManager: Shutting down and abandoning module BLKO (104)
+[2017.02.06-21.22.54:730][539]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.02.06-21.22.54:831][539]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.02.06-21.22.55:025][539]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.02.06-21.22.55:026][539]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.02.06-21.22.55:028][539]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.02.06-21.22.55:028][539]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.02.06-21.22.55:028][539]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.02.06-21.22.55:028][539]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.02.06-21.22.55:028][539]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.02.06-21.22.55:028][539]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.02.06-21.22.55:028][539]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.02.06-21.22.55:028][539]LogDirectoryWatcher: A directory notification for '../../../../../../Unreal Projects/BLKO/Content/' was aborted.
+[2017.02.06-21.22.55:029][539]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.02.06-21.22.55:029][539]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.02.06-21.22.55:250][539]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.02.06-21.22.55:250][539]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.02.06-21.22.55:250][539]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.02.06-21.22.55:250][539]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.02.06-21.22.55:250][539]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.02.06-21.22.55:250][539]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.02.06-21.22.55:250][539]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.02.06-21.22.55:250][539]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.02.06-21.22.55:261][539]LogDerivedDataCache: Shutdown
+[2017.02.06-21.22.55:261][539]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.02.06-21.22.55:261][539]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.02.06-21.22.55:261][539]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.02.06-21.22.55:261][539]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.02.06-21.22.55:261][539]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.02.06-21.22.55:262][539]LogOnline:Display: Unloading online subsystem: NULL
+[2017.02.06-21.22.55:262][539]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.02.06-21.22.55:264][539]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.02.06-21.22.55:264][539]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.02.06-21.22.55:264][539]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.06-21.22.55:265][539]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.06-21.22.55:265][539]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.06-21.22.55:265][539]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.06-21.22.55:268][539]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.06-21.22.55:268][539]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.06-21.22.55:268][539]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.06-21.22.55:268][539]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.06-21.22.55:269][539]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.06-21.22.55:269][539]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.06-21.22.55:269][539]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.06-21.22.55:269][539]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.06-21.22.55:269][539]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.06-21.22.55:269][539]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.06-21.22.55:273][539]LogExit: Exiting.
+[2017.02.06-21.22.55:290][539]Log file closed, 02/06/17 21:22:55

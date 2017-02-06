@@ -44,7 +44,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 Binaries/*
-Saved/*
+
 
 # Builds
 Build/*
