@@ -39,8 +39,6 @@ void ADefaultEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 void ADefaultEnemy::DealDamage(float Delta)
 {
 	Health -= Delta;
-
-
 	CalculateDead(this);
 }
 
@@ -62,14 +60,13 @@ void ADefaultEnemy::CalculateDead(AActor* c)
 void ADefaultEnemy::UpgradeEnemy(int RoundNumber)
 {	
 		//An enemy is upgraded according to the current Wave
-		//Wave 1 = 100%
-		//Wave 2 = 110%, etc
-		float _roundNumber = RoundNumber*1.1 ;
-		Health *= _roundNumber;
-		MaxHealth *= _roundNumber;
-		Damage *= _roundNumber;
-		MovementSpeed *= _roundNumber;
-		Worth = _roundNumber *10;
+	
+		float _roundNumber = RoundNumber*2 ;
+		Health +=  _roundNumber*2.5;
+		MaxHealth += _roundNumber*2.5;
+		Damage += _roundNumber;
+		MovementSpeed += _roundNumber;
+		Worth += _roundNumber;
 		
 }
 

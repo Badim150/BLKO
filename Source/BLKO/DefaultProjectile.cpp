@@ -19,7 +19,7 @@ ADefaultProjectile::ADefaultProjectile()
 void ADefaultProjectile::BeginPlay()
 {
 	Super::BeginPlay();
-	SetLifeSpan(1);
+	SetLifeSpan(2);
 	
 }
 
@@ -35,7 +35,7 @@ void ADefaultProjectile::Tick( float DeltaTime )
 void ADefaultProjectile::DealDamage()
 {
 	Target->DealDamage(Damage);
-	Destroy();
+	SetLifeSpan(0.1);
 	
 	
 }
