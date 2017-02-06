@@ -29,7 +29,7 @@ public:
 	//The multiplier on which the tower's values are increased on upgrade
 	//The base value is 150%
 	
-		float UpgradeValue = 1.1;
+		float UpgradeValue = 1.5;
 
 	//Damage property
 	//The ammount of damage one tower shot does

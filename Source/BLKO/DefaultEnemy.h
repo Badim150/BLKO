@@ -16,8 +16,13 @@
 	public:
 
 		//Health property
+		//Current Health of the enemy
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
 			float Health = 20;
+
+		//MaxHealth property
+		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
+			float MaxHealth = 20;
 
 		//Worth property
 		//How much gold does it award on death

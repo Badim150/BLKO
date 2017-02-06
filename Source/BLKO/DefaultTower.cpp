@@ -97,8 +97,8 @@ void ADefaultTower::DealDamage()
 #if WITH_EDITOR
 void ADefaultTower::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
 {
-	Cost = 10;
-	UpgradeCost = 15;
+	Cost = 100;
+	UpgradeCost = 150;
 	UpgradeValue = 1.5;
 	Damage = 10;
 	AttackSpeed = 1;
