@@ -27,14 +27,14 @@ void ASpawner::BeginPlay()
 void ASpawner::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
-
+	
 	if (Enabled) {
 		float _gameTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
 		if (NextWave.IsEmpty()) {
 			PlanWave(this, TimeWave);
 		}
 		else if (_gameTime >= TimeToSpawn) {
-			SpawnEnemy(this);
+			SpawnEnemy(this);			
 		}
 	}		
 }

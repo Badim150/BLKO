@@ -35,7 +35,7 @@ void ADefaultProjectile::Tick( float DeltaTime )
 void ADefaultProjectile::DealDamage()
 {
 	Target->DealDamage(Damage);
-	SetLifeSpan(0.1);
+	SetLifeSpan(0.01);
 	
 	
 }

@@ -66,7 +66,7 @@ void ADefaultEnemy::UpgradeEnemy(int RoundNumber)
 		MaxHealth += _roundNumber*2.5;
 		Damage += _roundNumber;
 		MovementSpeed += _roundNumber;
-		Worth += _roundNumber;
+		Worth += _roundNumber*1.5;
 		
 }
 
