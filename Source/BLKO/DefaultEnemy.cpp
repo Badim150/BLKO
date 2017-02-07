@@ -64,7 +64,7 @@ void ADefaultEnemy::UpgradeEnemy(int RoundNumber)
 		float _roundNumber = RoundNumber*2 ;
 		Health +=  _roundNumber*2.5;
 		MaxHealth += _roundNumber*2.5;
-		Damage += _roundNumber;
+		Damage += _roundNumber/2;
 		MovementSpeed += _roundNumber;
 		Worth += _roundNumber*1.5;
 		
@@ -76,9 +76,9 @@ void ADefaultEnemy::UpgradeEnemy(int RoundNumber)
 #if WITH_EDITOR
 void ADefaultEnemy::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
 {
-	Health = 20;
-	MaxHealth = 20;
-	Worth = 10;
+	Health = 10;
+	MaxHealth = 10;
+	Worth = 15;
 	Damage = 1;
 	MovementSpeed = 100;
 	isDead = false;

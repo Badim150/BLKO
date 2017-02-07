@@ -28,7 +28,7 @@ void ASpawner::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 	
-	if (Enabled) {
+	
 		float _gameTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
 		if (NextWave.IsEmpty()) {
 			PlanWave(this, TimeWave);
@@ -36,7 +36,7 @@ void ASpawner::Tick( float DeltaTime )
 		else if (_gameTime >= TimeToSpawn) {
 			SpawnEnemy(this);			
 		}
-	}		
+			
 }
 
 
@@ -66,6 +66,7 @@ void ASpawner::SpawnEnemy(AActor* c)
 	NextWave.RemoveFromStart(EnemyToSpawn);
 	c->CallFunctionByNameWithArguments(TEXT("BPSpawnEnemy"), ar, NULL, true);
 	UpdateSpawnTime(TimeMob);
+	
 }
 
 //Implement UpdateSpawnTime
@@ -95,14 +96,14 @@ void ASpawner::EnableSpawner(int wave) {
 
 //Implement DisableSpawner function
 void ASpawner::DisableSpawner() {
-	SetLifeSpan(20);
+	Enabled = false;
 }
 
 //Implement EnableSpawner function
 void ASpawner::HardMode(int wave) {
 	NextWave.Empty();
 	WaveNumber = wave;
-	PlanWave(this, 20);
+	PlanWave(this, TimeWave);
 
 }
 

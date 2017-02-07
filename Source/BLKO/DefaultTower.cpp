@@ -45,7 +45,7 @@ float ADefaultTower::UpgradeTower()
 	Cost += UpgradeCost;
 	UpgradeCost = Cost*UpgradeValue;
 	Damage *= UpgradeValue;
-	AttackSpeed *= UpgradeValue;
+	AttackSpeed *= (UpgradeValue*1.1);
 	Range *= UpgradeValue;
 	UpdateTowerRange(this);
 	TowerLevel += 1;

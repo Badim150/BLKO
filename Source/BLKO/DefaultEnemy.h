@@ -18,16 +18,16 @@
 		//Health property
 		//Current Health of the enemy
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
-			float Health = 20;
+			float Health = 10;
 
 		//MaxHealth property
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
-			float MaxHealth = 20;
+			float MaxHealth = 10;
 
 		//Worth property
 		//How much gold does it award on death
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
-			float Worth = 10;
+			float Worth = 15;
 
 		//Damage property
 		UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "DefaultEnemy")
